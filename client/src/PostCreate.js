@@ -7,7 +7,7 @@ const PostCreate = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
 
-    await axios.post("http://localhost/posts/create", {
+    await axios.post("http://minikube/posts/create", {
       title,
     });
 
